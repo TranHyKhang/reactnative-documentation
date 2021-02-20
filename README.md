@@ -1,6 +1,6 @@
 # **React Native Documentation** 
 <div>
-    <img src="./React-Native-Titre.png"/>
+    <img src="./pictures/React-Native-Titre.png"/>
 </div>
 
 <br/>
@@ -13,12 +13,12 @@
 ## **2. Overview of React Components: Stateful Component – Stateless Component**
 <div>
     <p>Core APIs React Native : Text,View,StyleSheet,Components,FlatList<p>
-    <img src="./Picture1.png"/>
-    <img src="./Picture3.png"/>
+    <img src="./pictures/Picture1.png"/>
+    <img src="./pictures/Picture3.png"/>
 </div>
 <div>
     <p>Câu hỏi: <p>
-    <img src="./Picture2.png"/>
+    <img src="./pictures/Picture2.png"/>
 </div>
 
 ***
@@ -33,36 +33,36 @@ Cú pháp thẻ này không phải là một chuỗi kí tự cũng không phả
 Nó được gọi là JSX, là một cú pháp mở rộng cho JavaScript. Chúng tôi khuyến khích sử dụng JSX với React để mô tả giao diện (UI). JSX có thể trông giống Ngôn ngữ Khuôn mẫu (Template language), nhưng JSX đi kèm với toàn bộ tính năng của JavaScript.
 
 <div>
-    <img src="./Picture4.png"/>
+    <img src="./pictures/Picture4.png"/>
 </div>
 
 #### **Bài tập JSX:**
 <div>
-    <img src="./Picture5.png"/>
+    <img src="./pictures/Picture5.png"/>
 </div>
 
 ***
 
 ### ***FlatList:***
 <div>
-    <img src="./Picture6.png"/>
+    <img src="./pictures/Picture6.png"/>
 </div>
 
 > Chú ý về keyExtractor, Data Source và Render Method.
 
 <div>
-    <img src="./Picture7.png"/>
+    <img src="./pictures/Picture7.png"/>
 </div>
 
 > Item trong list phải có Unique ID
 
 <div>
-    <img src="./Picture8.png"/>
+    <img src="./pictures/Picture8.png"/>
 </div>
 
 #### **Bài tập FlatList:**
 <div>
-    <img src="./Picture9.png"/>
+    <img src="./pictures/Picture9.png"/>
 </div>
 
 <br/>
@@ -70,7 +70,7 @@ Nó được gọi là JSX, là một cú pháp mở rộng cho JavaScript. Chú
 ## **3. Navigation & Button – Building Resusable Component**
 ### **1. Button Types**
 <div>
-    <img src="./Picture10.png"/>
+    <img src="./pictures/Picture10.png"/>
 </div>
 
 ```javascript
@@ -97,7 +97,7 @@ Tạo 1 Project mới có 3 Screen: **ImageScreen**, **SignupScreen**, **LoginSc
 
 ### **3. Reuseable Component**
 <div>
-    <img src="./Picture11.png"/>
+    <img src="./pictures/Picture11.png"/>
 </div>
 
 * Tạo component ImageDetail,ImageScreen dùng FlatList để render ra list hình ảnh kèm Caption.
@@ -106,7 +106,7 @@ Tạo 1 Project mới có 3 Screen: **ImageScreen**, **SignupScreen**, **LoginSc
 
 #### **Bài tập:**
 <div>
-    <img src="./Picture12.png"/>
+    <img src="./pictures/Picture12.png"/>
 </div>
 
 <br/>
@@ -114,7 +114,7 @@ Tạo 1 Project mới có 3 Screen: **ImageScreen**, **SignupScreen**, **LoginSc
 ## **4. State Management in React Components**
 ### ***Props vs State***
 <div>
-    <img src="./Picture13.png"/>
+    <img src="./pictures/Picture13.png"/>
 </div>
 
 
