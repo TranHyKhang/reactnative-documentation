@@ -11,14 +11,16 @@
 <br/>
 
 ## **2. Overview of React Components: Stateful Component – Stateless Component**
-<div>
-    <p>Core APIs React Native : Text,View,StyleSheet,Components,FlatList<p>
-    <img src="./pictures/Picture1.png" align="center"/>
-    <img src="./pictures/Picture3.png" align="center"/>
+
+Core APIs React Native : Text, View, StyleSheet, Components, FlatList.
+<div align="center">
+    <img src="./pictures/Picture1.png"/>
+    <img src="./pictures/Picture3.png"/>
 </div>
-<div>
-    <p>Câu hỏi: <p>
-    <img src="./pictures/Picture2.png" align="center"/>
+
+Câu hỏi:
+<div align="center">
+    <img src="./pictures/Picture2.png"/>
 </div>
 
 ***
@@ -48,17 +50,21 @@ Nó được gọi là JSX, là một cú pháp mở rộng cho JavaScript. Chú
     <img src="./pictures/Picture6.png"/>
 </div>
 
-> Chú ý về keyExtractor, Data Source và Render Method.
+>***Chú ý về keyExtractor, Data Source và Render Method.***
+
+
 
 <div align="center">
     <img src="./pictures/Picture7.png"/>
 </div>
 
-> Item trong list phải có Unique ID
+> ***Item trong list phải có Unique ID***
 
 <div align="center">
     <img src="./pictures/Picture8.png"/>
 </div>
+
+<br/>
 
 #### **Bài tập FlatList:**
 <div align="center">
@@ -123,13 +129,12 @@ Tạo 1 Project mới có 3 Screen: **ImageScreen**, **SignupScreen**, **LoginSc
     <img src="./pictures/Picture14.png"/>
 </div>
 
-Sử dụng useState để thực hiện bài toán trên.
+***<p align="center">Sử dụng useState để thực hiện bài toán trên.</p>***
 
-<br/>
+
 <div align="center">
     <img src="./pictures/Picture15.png"/>
 </div>
-
 <br/>
 
 #### **Bài tập: build app sinh màu ngẫu nhiên**
@@ -152,17 +157,24 @@ Sử dụng useState để thực hiện bài toán trên.
 <div align="center">
     <img src="./pictures/Picture19.png"/>
 </div>
+<br/>
+
 
 #### **Add more features**
+
 <div align="center">
     <img src="./pictures/Picture20.png"/>
 </div>
+<br/>
+
 
 **Color detail screen**
 
 <div align="center">
     <img src="./pictures/Picture21.png"/>
 </div>
+<br/>
+
 
 **Xử lý Callback – HV Validation các State này (if else – switch case)**
 
@@ -170,6 +182,8 @@ Sử dụng useState để thực hiện bài toán trên.
     <img src="./pictures/Picture22.png"/>
     <img src="./pictures/Picture23.png"/>
 </div>
+<br/>
+
 
 **Overview Reducers: (useReducers) – Refactor Project use Reducers (HV Restore lại Validation)**
 
@@ -178,6 +192,8 @@ Sử dụng useState để thực hiện bài toán trên.
     <img src="./pictures/Picture25.png"/>
     <img src="./pictures/Picture26.png"/>
 </div>
+
+<br/>
 
 **Convention**
 
