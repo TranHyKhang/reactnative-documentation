@@ -116,6 +116,17 @@ Tạo 1 Project mới có 3 Screen: **ImageScreen**, **SignupScreen**, **LoginSc
 <div>
     <img src="./pictures/Picture13.png"/>
 </div>
+<br/>
 
+### ***Màn hình mẫu:***
+<div>
+    <img src="./pictures/Picture14.png"/>
+</div>
 
+Sử dụng useState để thực hiện bài toán trên.
+
+<br/>
+<div style={margin: auto}>
+    <img src="./pictures/Picture15.png"/>
+</div>
 
