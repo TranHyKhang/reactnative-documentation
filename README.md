@@ -206,8 +206,134 @@ Tạo 1 Project mới có 3 Screen: **ImageScreen**, **SignupScreen**, **LoginSc
 2. Tạo Screen chứa 1 text input ,khi nhập EMAIL thay đổi sẽ hiện thị chữ đó ra màn hình.
 3. Tạo Screen chứa 1 text input ,khi nhập Password < 5 kí tự thì thông báo ra người dung.
 
+<br/>
 
+## *5. Layout with React Native*
+<div align="center">
+    <img src="./pictures/Picture28.png"/>
+    <img src="./pictures/Picture29.png"/>
+    <img src="./pictures/Picture30.png"/>
+</div>
+<br/>
 
+### *1. Align Items with Flex*
+<div align="center">
+    <img src="./pictures/Picture31.png"/>
+</div>
+<br/>
+
+### *2. Flex Direction*
+<div align="center">
+    <img src="./pictures/Picture32.png"/>
+</div>
+<br/>
+
+### *3. Justify Content*
+<div align="center">
+    <img src="./pictures/Picture33.png"/>
+</div>
+<br/>
+
+### *4. Flex Value*
+<div align="center">
+    <img src="./pictures/Picture34.png"/>
+</div>
+<br/>
+
+### *5. Algin Self on Children*
+<div align="center">
+    <img src="./pictures/Picture35.png"/>
+</div>
+<br/>
+
+### *6. The position property*
+<div align="center">
+    <img src="./pictures/Picture36.png"/>
+</div>
+<br/>
+
+### *Bài tập:*
+<div align="center">
+    <img src="./pictures/Picture37.png"/>
+</div>
+
+### *solve:*
+<div align="center">
+    <img src="./pictures/Picture38.png"/>
+</div>
+<br/>
+
+## **7. Bulid Restaurant App**
+### **1. App overview**
+<div align="center">
+    <img src="./pictures/Picture39.png"/>
+</div>
+<br/>
+
+### **2. Project Generation**
+<div align="center">
+    <img src="./pictures/Picture40.png"/>
+</div>
+<br/>
+
+### **3. Yelp API**
+```javascript
+'Bearer owzvjvtFJ-AKuqrgzBhtBORgTqJs7ktzLIOgjySNREWwZqr42YHFTikgSGMtvBa75MXQYQiImfTogprJQ9gAHkmtHjMEoMVEXZZAoWf8J5g2OC3v1ZiJspjP00tQX3Yx'
+```
+
+### **4. Types of Navigation:**
+<div align="center">
+    <img src="./pictures/Picture41.png"/>
+</div>
+<br/>
+
+### **5. React Navigation V4 Installation:**
+1. Install React Navigation
+```javascript
+npm install react-navigation
+```
+or
+```javascript
+yarn add react-navigation
+```
+2. Install Dependencies
+```javascript
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+```
+3. Install React Navigation Stack
+```javascript
+npm install react-navigation-stack @react-native-community/masked-view
+```
+or 
+```javascript
+yarn add react-navigation-stack @react-native-community/masked-view
+```
+4. Start the app and clear cache 
+```javascript
+expo r -c
+```
+
+### **6. Update imports**
+Our imports in the upcoming lecture will now look like this:
+```javascript
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+```
+
+### **7. Errors?**
+If you are still seeing errors and complaints about versions, you can try an upgrade:
+```javascript 
+expo upgrade
+```
+```javascript
+expo r -c
+```
+
+### **React Navigation v4 Docs:**
+**https://reactnavigation.org/docs/4.x/getting-started**
+
+### **GitRepo:**
+**https://github.com/giavudangle/foodSearching**
 
 
 
